@@ -1,4 +1,4 @@
-package practice;
+package practice1907;
 
 public class Soru18 {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class Soru18 {
     Beklenen Çıktı:
 ​
     Stringdeki sesli harf sayısı: 4
-         */
+             */
 
         String sesliHarf ="a,e,i,o,u,A,E,I,U" ;
         String input = "java is fun";

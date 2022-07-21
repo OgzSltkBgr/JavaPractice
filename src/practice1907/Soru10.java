@@ -1,4 +1,4 @@
-package practice;
+package practice1907;
 
 public class Soru10 {
     public static void main(String[] args) {
@@ -18,9 +18,9 @@ Kullanıcıdan alınan String kümesi içerisinde aranan  String i bulan Java Ko
         String search = "and";
 
         if(input.contains(search)) {
-            System.out.println("True");
+            System.out.println(true);
         }else {
-            System.out.println("False");
+            System.out.println(false);
         }
 
 

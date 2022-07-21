@@ -1,4 +1,4 @@
-package practice;
+package practice1907;
 
 import java.util.Scanner;
 
@@ -22,9 +22,7 @@ public class Soru17 {
 
         System.out.println("Lutfen ucuncu sayiyi giriniz");
         int sayi3= scan.nextInt();
-        enKucukSayi(sayi1,sayi2,sayi3);
-    }
-
+        enKucukSayi(sayi1,sayi2,sayi3);    }
     private static void enKucukSayi(int sayi1, int sayi2, int sayi3) {
 
 

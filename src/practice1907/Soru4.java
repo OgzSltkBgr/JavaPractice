@@ -1,4 +1,4 @@
-package practice;
+package practice1907;
 
 public class Soru4 {
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class Soru4 {
     //    12345678
     //    123456789
     //    12345678910
-
+        int sayi=6;
         for (int i = 1; i <=10 ; i++) {
             for (int j = 1; j <=i ; j++) {
                 System.out.print(j+ " ");

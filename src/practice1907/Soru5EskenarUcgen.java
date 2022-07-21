@@ -1,4 +1,4 @@
-package practice;
+package practice1907;
 
 public class Soru5EskenarUcgen {
     public static void main(String[] args) {
@@ -33,6 +33,20 @@ public class Soru5EskenarUcgen {
             } System.out.println(" ");
 
         }
+
+        for (int i = 1; i <input ; i=i+2) {
+            for (int j = 1; j <=i ; j++) {
+                System.out.print(" ");
+            }
+            for (int j = input-2; j >i ; j--) {
+
+                System.out.print(" ");
+                System.out.print("*");
+            }
+            System.out.println(" ");
+        }
+
+
 
     }
 }

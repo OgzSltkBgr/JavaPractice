@@ -1,6 +1,5 @@
-package practice;
+package practice1907;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Soru13 {
