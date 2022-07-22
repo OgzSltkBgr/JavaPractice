@@ -23,10 +23,8 @@ public class Soru28 {
             }else{
                 tekSayi++;
             }
-
         }
         System.out.println("ciftSayi = " + ciftSayi);
         System.out.println("tekSayi = " + tekSayi);
-
     }
 }

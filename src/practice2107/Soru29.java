@@ -1,5 +1,7 @@
 package practice2107;
 
+import java.util.Arrays;
+
 public class Soru29 {
     public static void main(String[] args) {
         /*
@@ -10,7 +12,14 @@ public class Soru29 {
     reversed -> "fun is Java"
 ​
          */
-        String arr[][][]={{{"Java"},{"is"},{"fun"}}};
+        String str="Java is fun";
+        String arrStr[]=str.split(" ");
+        String tersArr[];
+
+        for (int i = arrStr.length-1; i >=0 ; i--) {
+            System.out.print(arrStr[i]+" ");
+        }
+
 
 
 

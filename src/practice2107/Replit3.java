@@ -1,5 +1,9 @@
 package practice2107;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class Replit3 {
     public static void main(String[] args) {
         /*
@@ -12,12 +16,22 @@ public class Replit3 {
         String str ="Javaisalsoeasy";
         String tekrarlanan="";
 
-        for (int i = 0; i <str.length() ; i++) {
+        String [] arr=str.split("");
+        System.out.println(Arrays.toString(arr));
 
-                if ((str.equals(str.substring(i, i + 1)))) {
-                    tekrarlanan+=str.substring(i,i+1);
-                }
-            }System.out.println(tekrarlanan);
+        Arrays.sort(arr);
+        List<String> strList = new ArrayList<String>();
+        System.out.println(Arrays.toString(arr));
+
+        for (int i = 0; i < arr.length-1 ; i++) {
+
+            if (arr[i].equals(arr[i+1])&& !strList.contains(arr[i])){
+                strList.add(arr[i]);
+            }
+        }
+        System.out.println(strList);
+
+
         }
 
     }

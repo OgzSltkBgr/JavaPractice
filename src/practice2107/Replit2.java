@@ -24,11 +24,8 @@ Beklenen Cikti:
         for (int i = 1; i <sayi2 ; i++) {
             if (sayi1%i==0 && sayi2%i==0){
                 ebob=i;
-
         }
-
         }System.out.println("ebob :"+ebob);
-
         int ekok=0;
         int carpim=sayi1*sayi2;
         for (int i = carpim; i >0 ; i--) {
@@ -36,6 +33,6 @@ Beklenen Cikti:
         ekok=i;
              }
         }
-            System.out.println(ekok);
+            System.out.println("ekok :" +ekok);
     }
 }

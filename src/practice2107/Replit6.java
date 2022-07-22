@@ -5,15 +5,20 @@ public class Replit6 {
         /*
         Konsolda Alfabeyi Yazdıran programi yaziniz.
 
-OUTPUT :
+            OUTPUT :
 
-a b c .. .. .. .. y z
+            a b c .. .. .. .. y z
          */
         int a =97;
-        do {
-            char karakter = (char) a;
-            System.out.print( karakter+ " ");
-            a++;
-        }while (a <= 122);
+        char karakter = (char) a;
+        System.out.print( karakter+ " ");
+        a++;
+        if (a <= 122) {
+            do {
+                karakter = (char) a;
+                System.out.print(karakter + " ");
+                a++;
+            } while (a <= 122);
+        }
     }
 }

@@ -22,14 +22,11 @@ Output:
             if(sayi%i==0){
                 pozBolen+=i;
             }
-
         }
         if (pozBolen==sayi){
             System.out.println(sayi + " Mukemmel Sayidir");
         }else {
             System.out.println(sayi + " Mukemmel Sayidir degildir");
         }
-
-
     }
 }

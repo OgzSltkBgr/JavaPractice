@@ -19,21 +19,16 @@ public class Replit1 {
         String name = scan.nextLine();
 
         System.out.println("lutfen bir karakter giriniz");
-        char ch1 = scan.next().charAt(0);
+        String harf=scan.next();
 
         int count=0;
 
-    //    for (int i = 0; i <name.length(); i++) {
-    //        if (name.contains()){
-    //            count++;
-    //        }
-    //    }
-    //    System.out.println(count);
-     //   while (){
-     //       if (name.contains(ch1+"")){
-     //           count++;
-     //       }
-     //   }
-     //   System.out.println(count);
+        for (int i = 0; i <name.length(); i++) {
+            if (name.substring(i,i+1).equals(harf)){
+                count++;
+            }
+        }
+        System.out.println(count);
+
     }
 }
