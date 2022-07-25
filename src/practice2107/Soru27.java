@@ -16,5 +16,7 @@ public class Soru27 {
         Arrays.sort(arr);
         System.out.println(Arrays.toString(arr));
         System.out.println("arr arayinde en buyuk ikinci sayi : "+ arr[arr.length-2]);
+
+
     }
 }
