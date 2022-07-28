@@ -16,17 +16,21 @@ public class OdevSorusu {
         while (result.size() < 9) {
             for (int i = 0; i < arr1.length; i++) {
 
-                arr1[i] = rnd.nextInt(11);
+                arr1[i] = 1+rnd.nextInt(10);
                 Arrays.sort(arr1);
 
-                if (!result.contains(arr1[i])) {
+                if (!result.contains(arr1[i]) && arr1[i]!=0) {
                     result.add(arr1[i]);
                 }
-
-
             }
-
         }
         System.out.println(result);
+        int toplam=0;
+        int toplamArr=55;
+
+        for (int i = 0; i <arr1.length ; i++) {
+            toplam += arr1[i];
+        }
+        System.out.println(toplamArr-toplam);
     }
 }
