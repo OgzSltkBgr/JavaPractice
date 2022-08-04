@@ -36,11 +36,13 @@ S7: Bir Class i nasıl singleton yapabiliriz?
 C7: O Class’ta ki Constructor i private yaparak.
 ​
 S8: Java da ArrayList ve Vector arasındaki fark nedir?
-C8: ArrayList hızlı olması için senkronize edilmemiştir ancak Vector, iş parçacığı açısından güvenli olduğundan yavaş olması için senkronize edilmiştir.
+C8: ArrayList hızlı olması için senkronize edilmemiştir ancak
+Vector, iş parçacığı açısından güvenli olduğundan yavaş olması için senkronize edilmiştir.
 ​
 ​
 S9: Java da equals () ve = = işareti arasındaki fark nedir?
-C9: equals () operatörü primitive dataları ve Objectleri karşılaştırmak için kullanılır. == ise iki tane Object i karşılaştırmak için kullanılır.
+C9: equals () operatörü primitive dataları ve Objectleri karşılaştırmak için kullanılır.
+== ise iki tane Object i karşılaştırmak için kullanılır.
 ​
 ​
 s10: Java’da Heap ve Stack Memory arasındaki farklar nelerdir?
