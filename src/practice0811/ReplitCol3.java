@@ -1,4 +1,4 @@
-package practice0811.depoYonetimi;
+package practice0811;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

@@ -1,4 +1,4 @@
-package practice0811.depoYonetimi;
+package practice0811;
 
 import java.util.ArrayList;
 import java.util.List;

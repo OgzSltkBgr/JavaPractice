@@ -1,4 +1,4 @@
-package practice0811.depoYonetimi.depoYonetimi;
+package practice0811.depoYonetimi;
 
 public class Urunler {
     public String urunIsmi;

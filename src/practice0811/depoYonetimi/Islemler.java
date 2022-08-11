@@ -1,4 +1,4 @@
-package practice0811.depoYonetimi.depoYonetimi;
+package practice0811.depoYonetimi;
 
 import java.util.*;
 public class Islemler extends Urunler {
