@@ -12,7 +12,7 @@ public class TasKagitMakas {
         while(true) {
             System.out.println("Seçiminiz: ");
             int secim = s.nextInt();
-            int bil_secim = (int)(Math.random()*3);
+            int bil_secim = (int)(Math.random()*3); 
             if (secim == 1) {
                 if (bil_secim == 1) {
                     System.out.println("Bilgisayarın seçimi: TaşnSonuç: Berabere");
