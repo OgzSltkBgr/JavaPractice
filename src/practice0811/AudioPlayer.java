@@ -9,11 +9,9 @@ import javax.sound.sampled.Clip;
  * Created by Lyigezaw on 5/4/2017.
  */
 public class AudioPlayer {
-    private Clip clip;
-
+    public Clip clip;
     public AudioPlayer(String s) {
         try {
-
             AudioInputStream ais = AudioSystem.getAudioInputStream(getClass().getResourceAsStream(s));
             AudioFormat baseFormat = ais.getFormat();
             AudioFormat decodeFormat = new AudioFormat(AudioFormat.Encoding.PCM_SIGNED,
@@ -32,11 +30,12 @@ public class AudioPlayer {
         if (clip == null) return;
         stop();
     }
-    private void stop() {
+    public void stop() {
         if (clip.isRunning()) clip.stop();
     }
     public void close() {
         stop();
         clip.close();
     }
+
 }
