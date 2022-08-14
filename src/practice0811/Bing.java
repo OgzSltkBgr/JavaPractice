@@ -1,17 +1,17 @@
 package practice0811;
 import jm.JMC;
+import jm.music.data.*;
+import jm.util.Play;
 
-import javax.swing.text.html.ImageView;
-import java.awt.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.net.URISyntaxException;
+import java.net.URL;
 
 // https://www.youtube.com/watch?v=9VluMvijNB4&list=RDCLAK5uy_n1j1GACZO4o7U1m708pa7jV1q7zR-cY44&index=14
-public class Bing implements JMC{
-    public Bing() {
-
-    }
-
+public class bing implements JMC{
     public static void main(String[] args) throws FileNotFoundException, URISyntaxException {
    //  int i =1;
    //hile(i<5){
@@ -23,18 +23,13 @@ public class Bing implements JMC{
    //   Play.midi(new Note(B3,TN+TN));
    //   i++;
    //}
-      //  URL url = bing.getClass().getResource("src/practice0811/Anne-Marie - Ciao Adios [Official Video].wav");
+      //  URL url = bing.getClass().getResource("src/practice0811/Anne-Marie - Ciao Adios [Official Video].mp3");
        // bing.getResourceAsStream
 
-       // File file = new File(bing.class.getResource("src/practice0811/Anne-Marie - Ciao Adios [Official Video].wav").toURI());
-       // BufferedReader reader = new BufferedReader(new FileReader("Anne-Marie - Ciao Adios [Official Video].wav"));
-       //Play.audioFile("src/practice0811/Anne-Marie - Ciao Adios [Official Video].wav");
-       // FileInputStream fis = new FileInputStream("src/practice0811/Collections.png");
-       // System.out.println(fis);
-       // ImageView imgY = new ImageView("src/practice0811/Collections.png");
+       // File file = new File(bing.class.getResource("src/practice0811/Anne-Marie - Ciao Adios [Official Video].mp3").toURI());
+       // BufferedReader reader = new BufferedReader(new FileReader("Anne-Marie - Ciao Adios [Official Video].mp3"));
+
     }
-
-
 
 
 }
